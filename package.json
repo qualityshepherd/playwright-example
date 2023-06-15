@@ -1,0 +1,18 @@
+{
+  "name": "playwright-example",
+  "version": "1.0.0",
+  "description": "example e2e tests written in Playwright",
+  "main": "index.js",
+  "scripts": {
+    "playwright": "playwright",
+    "test": "playwright test",
+    "headed": "playwright test --headed",
+    "pretty": "standard --fix ."
+  },
+  "author": "brine",
+  "dependencies": {
+    "@playwright/test": "^1.35.0",
+    "standard": "^17.1.0"
+  },
+  "devDependencies": {}
+}
