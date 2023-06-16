@@ -38,7 +38,7 @@ export class HomePage extends BasePage {
    * @return {bool}
    */
   async findPostByLoadingMore (postTitle) {
-    await this.loadMoreBtn.click()
+    await this.waitAndClick(this.loadMoreBtn.last())
     return await this.postTitleExists(postTitle) ? true : await this.findPostByLoadingMore(postTitle)
   }
 }

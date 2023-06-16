@@ -15,4 +15,13 @@ export class BasePage {
   async hitEnter () {
     await this.page.keyboard.press('Enter')
   }
+
+  /**
+   * yes, yes... playwright auto-waits... LIES!!!l!
+   * @param  {locator} locator
+   */
+  async waitAndClick (locator) {
+    await locator.waitFor()
+    await locator.click()
+  }
 }
