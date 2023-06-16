@@ -2,10 +2,10 @@
 Example e2e tests (some of which are slightly silly) written with [Playwright](https://playwright.dev/), that:
 - use a page object pattern
 - are es6y
-- use async/await
 - run in parallel
 - run on multiple browsers
 - run headlessly
+- run on CI
 
 ## Setup
 1. clone `clone git@github.com:qualityshepherd/playwright-example.git`
