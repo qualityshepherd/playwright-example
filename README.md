@@ -17,3 +17,7 @@ Example e2e tests (some of which are slightly silly) written with [Playwright](h
 * run `npm test` to run 4 browsers headlessly
 * `npm run headed` to watch tests run in the browser(s)
 * `npm run` to see all the options
+
+## Results
+
+![Test Run Gif](https://qualityshepherd.com/screencasts/pw.gif)
