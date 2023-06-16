@@ -1,3 +1,5 @@
+[![E2E Tests](https://github.com/qualityshepherd/playwright-example/actions/workflows/e2e.yaml/badge.svg)](https://github.com/qualityshepherd/playwright-example/actions/workflows/e2e.yaml)
+
 ## Playwright Example
 Example e2e tests (some of which are slightly silly) written with [Playwright](https://playwright.dev/), that:
 - use a page object pattern
