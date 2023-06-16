@@ -16,6 +16,6 @@ test.describe('Homepage', () => {
     const postTitle = 'Protractor - How To Page Object'
     await homePage.findPostByLoadingMore(postTitle)
 
-    await expect(homePage.postTitleExists(postTitle)).toBeTruthy()
+    await expect(await homePage.postTitleExists(postTitle)).toBeTruthy()
   })
 })
